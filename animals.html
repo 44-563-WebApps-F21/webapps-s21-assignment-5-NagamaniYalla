@@ -52,8 +52,91 @@
   <img src="Giraffe_sq.jpg" class="img-thumbnail"alt="Giraffe" width="500" height="500">
 </div>
 <br>
-
-
+<h4 style="padding: 5px,5px;font-family:'Times New Roman', Times, serif;background-color: rgb(200, 159, 230);">My Table</h4>
+<table class="table table-hover table-striped" style="width:80%">
+<style>
+  table, th, td{
+    border-collapse: collapse;
+    border:2px solid chocolate;
+    border-radius: 10px;
+    border-spacing: 30px;
+  }
+  tr:nth-child(even) {background-color:darksalmon;}
+  tr:nth-child(odd) {background-color:greenyellow}
+</style>
+  <caption style="text-shadow: rgb(35, 53, 17);">A Summary of Letter,Animal,City,Car details</caption>
+  <thead class = "table-dark">
+    <tr style="text-align: center">
+      <th scope="col">Number of Rows</th>
+      <th scope="col">Letter</th>
+      <th scope="col">Animal</th>
+      <th scope="col">City</th>
+      <th scope="col">Car</th>
+    </tr>
+  </thead>
+  <tbody style="text-align: center; border: 2px; width: 60%;" class="table_body">
+    <tr style="text-align: center; border: 2px;">
+      <th scope="row">1</th>
+      <td>L</td>
+      <td>Lion</td>
+      <td>Lucknow</td>
+      <td>Lamborghini</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>N</td>
+      <td>Nemo</td>
+      <td>New York</td>
+      <td>Nissan</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>G</td>
+      <td>Giraffe</td>
+      <td>Gangtok</td>
+      <td>GAC</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>D</td>
+      <td>Dog</td>
+      <td>Dewas</td>
+      <td>Datsun</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>E</td>
+      <td>Elephant</td>
+      <td>Edinburgh</td>
+      <td>E-Tron - Audi</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>S</td>
+      <td>Shark</td>
+      <td>San Diego</td>
+      <td>Seltos</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<nav class="navbar navbar-light" style="background-color:maroon;"></nav>
+<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"></div>
+  <div class="btn-group" role="group" aria-label="success group">
+    <button type="button" class="btn btn-success">Y</button>
+    <button type="button" class="btn btn-success">A</button>
+    <button type="button" class="btn btn-success">L</button>
+  </div>
+  <div class="btn-group" role="group" aria-label="alert group">
+    <button type="button" class="btn btn-alert">L</button>
+    <button type="button" class="btn btn-alert">A</button>
+  </div>
+  <div class="btn-group" role="group" aria-label="danger group">
+    <button type="button" class="btn btn-danger">N</button>
+  </div>
+</div>
+<br>
 
 </body>
 </html>
